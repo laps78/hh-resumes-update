@@ -6,7 +6,7 @@ console.info(
 const intervalTime = 10 * 60 * 1000;
 
 function hhRuResumeUpdater() {
-  console.log("hhRuResumeUpdater() started...");
+  console.log("Запускаем кликер по расписанию...");
   const resumeUpdateLinks = document.querySelectorAll(".bloko-link");
   if (resumeUpdateLinks) {
     resumeUpdateLinks.forEach((link) => {
