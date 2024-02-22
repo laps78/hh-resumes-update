@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "HH.ru resumes updater",
+  "version": "0.1",
+  "description": "Простейший автокликер для автоматического подъема ваших резюме в поиске работодателей на сайте hh.ru.\n Разработано @2024 L.A.P.S. Lab",
+  "author": "sovtem@gmail.com",
+  "icons": {
+    "512": "/img/icon512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.hh.ru/applicant/resumes*"],
+      "js": ["./src/js/autoclicker.js"]
+    }
+  ]
+}
