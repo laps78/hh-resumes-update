@@ -13,12 +13,12 @@
 1. Скачиваем .ZIP архив с расширением [из репозитория](./extensions/Chrome.zip) или [из магазина (ожидается)](https://prolaps.ru/shop)
 2. Если необходимо, перенесите в удобное для вас место и распакуйте ахрхив с расширением
 3. Откройте браузер chrome и наберите в адресной строке chrome://extensions
-   ![наберите в адресной строке chrome://extensions](./assets/new-howto/goto-extensions.png)
+   ![наберите в адресной строке chrome://extensions](https://github.com/laps78/VK-friends-auto-add/raw/main/assets/new-howto/goto-extensions.png))
 4. Включите режим разработчика
 5. Нажмите "Загрузить распакованное расширение" и выберите папку, в которую распаковали .ZIP архив
-   ![Нажмите "Загрузить распакованное расширение"](./assets/new-howto/upload-extension.png)
+   ![Нажмите "Загрузить распакованное расширение"](https://github.com/laps78/VK-friends-auto-add/raw/main/assets/new-howto/upload-extension.png)
 6. Активируйте расширение
-   ![Активируйте расширение](./assets/new-howto/activate-extension.png)
+   ![Активируйте расширение](https://github.com/laps78/VK-friends-auto-add/raw/main/assets/new-howto/activate-extension.png)
 7. Отключите режим разработчика
 
 [Содержание](#содержание)
