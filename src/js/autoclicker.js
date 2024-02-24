@@ -38,4 +38,11 @@ function hhRuResumeUpdater() {
   setTimeout(closeFuckenBanner, 2500);
 }
 
+const sendStats = async () => {
+  try {
+  } catch (err) {
+    console.error(`Ошибка при отправке обезличенной статистики`, error);
+  }
+};
+
 setInterval(hhRuResumeUpdater, intervalTime);
