@@ -1,4 +1,4 @@
-# hh-resumes-update Public
+# hh-resumes-update
 
 ![Иконка расширения 128px](./img/hh-updater-logo128.png)
 
