@@ -16,7 +16,7 @@ const getTimeStamp = () => {
 function hhRuResumeUpdater() {
   try {
     console.info(
-      `[${getTimeStamp()}]: Запускаем HH.RU кликер по расписанию...`
+      `[${getTimeStamp()}]:\n Запускаем HH.RU кликер по расписанию...`
     );
     const resumeUpdateLinks = document.querySelectorAll(".bloko-link");
     if (resumeUpdateLinks) {
@@ -24,10 +24,10 @@ function hhRuResumeUpdater() {
         if (link.textContent === "Поднять в поиске") {
           const timestamp = getTimeStamp();
           link.click();
-          console.info(`[${getTimeStamp()}]: Успешно поднял ваше резюме!`);
+          console.info(`[${getTimeStamp()}]:\n Успешно поднял ваше резюме!`);
         } else {
           console.info(
-            `[${getTimeStamp()}]: Не найдены ссылки со словами "Поднять в поиске", пропускаю до следущей проверки через ${
+            `[${getTimeStamp()}]:\n Не найдены ссылки со словами "Поднять в поиске", пропускаю до следущей проверки через ${
               intervalTime / 60000
             } минут.`
           );
@@ -48,13 +48,13 @@ function hhRuResumeUpdater() {
           `[${getTimeStamp()}]: Вижу рекламный баннер автоподнятия от hh.ru.`
         );
         fuckenBannerCloseButton.click();
-        console.info(`[${getTimeStamp()}]: Баннер hh.ru закрыт.`);
+        console.info(`[${getTimeStamp()}]:\n Баннер hh.ru закрыт.`);
       } else {
-        console.info(`[${getTimeStamp()}]: Баннер не обнаружен. Игнорирую.`);
+        console.info(`[${getTimeStamp()}]:\n Баннер не обнаружен. Игнорирую.`);
       }
     } catch (error) {
       console.error(
-        `[${getTimeStamp()}]: Ошибка функции работы с баннером hh.ru: `,
+        `[${getTimeStamp()}]:\n Ошибка функции работы с баннером hh.ru: `,
         error
       );
     }
