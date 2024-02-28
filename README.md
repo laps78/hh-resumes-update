@@ -12,7 +12,7 @@
 
 ## Инcтрукция по установке расширения Chrome из репозитория
 
-1. Скачиваем .ZIP архив с расширением [из репозитория](./extensions/Chrome.zip) или [из магазина (ожидается)](https://prolaps.ru/shop)
+1. Скачиваем .ZIP архив с расширением [из репозитория](./extensions/Chrome.zip) или [из магазина L.A.P.S. Lab)](https://prolaps.ru/product/hh-resumes-updater/)
 2. Если необходимо, перенесите в удобное для вас место и распакуйте ахрхив с расширением
 3. Откройте браузер chrome и наберите в адресной строке chrome://extensions
    ![наберите в адресной строке chrome://extensions](https://github.com/laps78/VK-friends-auto-add/raw/main/assets/new-howto/goto-extensions.png))
