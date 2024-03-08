@@ -14,7 +14,11 @@
   "content_scripts": [
     {
       "matches": ["https://*.hh.ru/applicant/resumes*"],
-      "js": ["./src/js/autoclicker.js"]
+      "js": ["./src/js/hh-autoclicker.js"]
+    },
+    {
+      "matches": ["https://*.hh.ru/applicant/resumes*"],
+      "js": ["./src/js/sj-autoclicker.js"]
     }
   ]
 }
