@@ -8,6 +8,17 @@
     "192": "/public/logo192.png",
     "512": "/public/logo512.png"
   },
+  "background": {
+    "service_worker": "./src/service_workers/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": {
+      "192": "/public/logo192.png"
+    },
+    "default_title": "Resumes updater",
+    "default_popup": "./public/index.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://*.hh.ru/applicant/resumes*"],
