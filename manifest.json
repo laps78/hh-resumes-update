@@ -17,7 +17,7 @@
       "js": ["./src/js/hh-autoclicker.js"]
     },
     {
-      "matches": ["https://*.hh.ru/applicant/resumes*"],
+      "matches": ["https://*.superjob.ru/user/resume/"],
       "js": ["./src/js/sj-autoclicker.js"]
     }
   ]
