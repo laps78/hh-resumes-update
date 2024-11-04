@@ -1,26 +1,23 @@
 {
   "manifest_version": 3,
   "name": "HH.ru resumes updater",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Простейший автокликер для автоматического подъема ваших резюме в поиске работодателей на сайте hh.ru и superjob.ru. Разработано @2024 L.A.P.S. Lab",
   "author": "sovtem@gmail.com",
-  "action": {
-    "default_icon": {
-      "512": "/img/icon-512.png",
-      "128": "/img/icon-128.png",
-      "64": "/img/icon-64.png",
-      "32": "/img/icon-32.png",
-      "16": "/img/icon-16.png"
-    },
-    "default_title": "Resumes updater by L.A.P.S.Lab"
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png",
+    "64": "/img/icon-64.png",
+    "32": "/img/icon-32.png",
+    "16": "/img/icon-16.png"
   },
   "content_scripts": [
     {
-      "matches": ["http*://*.hh.ru/*"],
+      "matches": ["https://*.hh.ru/*"],
       "js": ["./src/js/hh-autoclicker.js"]
     },
     {
-      "matches": ["http*://*.superjob.ru/*"],
+      "matches": ["https://*.superjob.ru/*"],
       "js": ["./src/js/sj-autoclicker.js"]
     }
   ]
