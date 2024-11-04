@@ -10,17 +10,17 @@
       "128": "/img/icon-128.png",
       "64": "/img/icon-64.png",
       "32": "/img/icon-32.png",
-      "16": "/img/icon-128.png"
+      "16": "/img/icon-16.png"
     },
     "default_title": "Resumes updater by L.A.P.S.Lab"
   },
   "content_scripts": [
     {
-      "matches": ["https://*.hh.ru/applicant/resumes*"],
+      "matches": ["http*://*.hh.ru/*"],
       "js": ["./src/js/hh-autoclicker.js"]
     },
     {
-      "matches": ["https://*.superjob.ru/user/resume/"],
+      "matches": ["http*://*.superjob.ru/*"],
       "js": ["./src/js/sj-autoclicker.js"]
     }
   ]
