@@ -4,7 +4,7 @@ console.info(
 );
 
 // init app
-const intervalTime = 15 * 60 * 1000;
+const intervalTime = 1 * 60 * 1000;
 
 const getTimeStamp = () => {
   const now = new Date();
@@ -18,16 +18,16 @@ function hhRuResumeUpdater() {
     console.info(
       `[${getTimeStamp()}]:\n Запускаем HH.RU кликер по расписанию...`
     );
-    const resumeUpdateLinks = document.querySelectorAll(".bloko-link");
+    const resumeUpdateLinks = document.querySelectorAll("div");
     if (resumeUpdateLinks) {
       resumeUpdateLinks.forEach((link) => {
-        if (link.textContent === "Поднять в поиске") {
+        if (link.textContent.toLowerCase() === "поднять") {
           const timestamp = getTimeStamp();
           link.click();
           console.info(`[${getTimeStamp()}]:\n Успешно поднял ваше резюме!`);
         } else {
           console.info(
-            `[${getTimeStamp()}]:\n Не найдены ссылки со словами "Поднять в поиске", пропускаю до следущей проверки через ${
+            `[${getTimeStamp()}]:\n Не найдены целевые ссылки, до следущей проверки через ${
               intervalTime / 60000
             } минут.`
           );

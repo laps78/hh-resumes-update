@@ -4,7 +4,7 @@ console.info(
 );
 
 // init app
-const intervalTime = 15 * 60 * 1000;
+const intervalTime = 1 * 60 * 1000;
 const getTimeStamp = () => {
   const now = new Date();
   const timestamp = now.toLocaleString("ru-RU");
