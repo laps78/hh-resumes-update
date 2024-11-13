@@ -8,7 +8,7 @@
 [инструкция по установке](##инcтрукция-по-установке-расширения-Chrome)
 Это браузерное расширение - простейший автокликер для автоматического подъема ваших резюме в поиске работодателей на сайте hh.ru. Разработано @2024 L.A.P.S. Lab.
 
-Установить его можно из [офицального источника расширений для браузера chrome](https://chromewebstore.google.com/detail/hhru-resumes-updater/).
+Установить его можно из [офицального источника расширений для браузера chrome](https://chromewebstore.google.com/detail/hhru-resumes-updater/ljbjhmajkmjknjifacdcheegakmhpfca).
 
 Данный проеект является логическим развитием проекта пользовательского скрипта для расширений типа [GreaseMonkey](https://www.greasespot.net/)/[TemperMonkey](https://www.tampermonkey.net/), оригинальный код которого можно найти в репозитории или на сайте [L.A.P.S. Lab](https://prolaps.ru/besplatnyj-avtopodem-rezyume-hh-ru/).
 
