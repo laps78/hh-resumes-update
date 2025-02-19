@@ -21,10 +21,13 @@ function hhRuResumeUpdater() {
     const resumeUpdateLinks = document.querySelectorAll("div");
     if (resumeUpdateLinks) {
       resumeUpdateLinks.forEach((link) => {
-        if (link.textContent.toLowerCase() === "поднять") {
+        if (link.textContent.toLowerCase().includes("поднять")) {
           const timestamp = getTimeStamp();
           link.click();
-          console.info(`[${getTimeStamp()}]:\n Успешно поднял ваше резюме!`);
+          console.info(`[${getTimeStamp()}]:\n
+            ===========================\n
+            Успешно поднял ваше резюме!\n
+            ===========================`);
         } else {
           console.info(
             `[${getTimeStamp()}]:\n Не найдены целевые ссылки, до следущей проверки через ${

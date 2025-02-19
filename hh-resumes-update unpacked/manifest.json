@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "HH.ru resumes updater",
-  "version": "0.2.1",
-  "description": "Простейший автокликер для автоматического подъема ваших резюме в поиске работодателей на сайте hh.ru и superjob.ru. Разработано @2024 L.A.P.S. Lab",
+  "version": "0.2.5",
+  "description": "Простейший автокликер для автоматического подъема ваших резюме на hh.ru и superjob.ru. Разработано @2024 L.A.P.S. Lab",
   "author": "sovtem@gmail.com",
   "icons": {
     "512": "/img/icon-512.png",
